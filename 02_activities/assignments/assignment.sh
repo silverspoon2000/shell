@@ -27,7 +27,7 @@ mkdir data
 mv ./rawdata ./data/raw/
 
 # 3. List the contents of the ./data/raw directory
-cd ./data/raw
+ls ./data/raw
 
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
 
@@ -44,7 +44,7 @@ rm -rf ipaddr*
 rm -rf ../processed/user_logs/ipaddr*
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
 touch ../inventory.txt
-echo dir ../data/processed >> ../inventory.txt
+echo ls ../data/processed >> ../inventory.txt
 
 
 ###########################################
